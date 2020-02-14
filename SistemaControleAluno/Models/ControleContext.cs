@@ -18,5 +18,6 @@ namespace SistemaControleAluno.Models
             base.Dispose(disposing);
         }
 
+        public System.Data.Entity.DbSet<SistemaControleAluno.Models.Usuario> Usuarios { get; set; }
     }
 }
