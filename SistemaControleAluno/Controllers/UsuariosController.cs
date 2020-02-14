@@ -62,6 +62,7 @@ namespace SistemaControleAluno.Controllers
                         }
                     }
                     db.SaveChanges();
+
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
